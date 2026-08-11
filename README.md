@@ -1,5 +1,5 @@
 ## 1. General Overview
-This pipeline builds an automated business data analysis chatbot from natural language—supporting Business Development in analyzing business performance. 
+This pipeline builds an automated business data analysis chatbot from natural language-supporting Business Development in analyzing business performance. 
 The source code is written entirely on Google Colab and uses Supabase as the database.
 
 ## 2. Directory Structure
