@@ -1,38 +1,36 @@
-# Hehe Chatbot Project
+## 1. General Overview
+This pipeline builds an automated business data analysis chatbot from natural language—supporting Business Development in analyzing business performance. 
+The source code is written entirely on Google Colab and uses Supabase as the database.
 
-## 1. Giới thiệu chung
-Đây là pipeline xây dựng chatbot phân tích dữ liệu kinh doanh tự động từ ngôn ngữ tự nhiên - hỗ trợ Business Development trong việc phân tích dữ liệu kinh doanh. 
-Mã nguồn được viết hoàn toàn trên nền tảng Google Colab và sử dụng Supabase làm cơ sở dữ liệu.
+## 2. Directory Structure
+- `Group1_Notebook.ipynb`: Main source code file (Google Colab Notebook) containing the entire pipeline.
+- `database_schema.sql`: Table structure and functions/triggers (if any) used in Supabase.
+- `data` folder: Data extracted from Supabase to ensure reproducibility.
+- `README.md`: Installation and setup instructions.
 
-## 2. Cấu trúc thư mục
-- `Group1_Notebook.ipynb`: File mã nguồn chính (Google Colab Notebook) chứa toàn bộ pipeline.
-- `database_schema.sql`: Cấu trúc bảng và các function/trigger (nếu có) dùng trong Supabase.
-- folder `data`: Dữ liệu đã được trích xuất từ Supabase để đảm bảo tính tái lập (reproducibility).
-- `README.md`: File hướng dẫn cài đặt và chạy.
+## 3. Execution Instructions
 
-## 3. Hướng dẫn chạy
+To run this project, please follow these steps:
 
-Để chạy được project này, vui lòng làm theo các bước sau:
+**Step 1: Environment Setup**
+1. Open Google Colab.
+2. Upload the `Group1_Notebook.ipynb` file to Google Colab.
 
-**Bước 1: Chuẩn bị môi trường**
-1. Mở Google Colab.
-2. Upload file `Group1_Notebook.ipynb` lên Google Colab.
+**Step 2: Database Setup**
+- Go to the SQL Editor in Supabase and run the content in `database_schema.sql` to create tables.
+- Extract the `data` folder.
+- Upload each file in the `data` folder into the newly created tables to populate the test data.
 
-**Bước 2: Tái tạo Database**
-- Vào SQL Editor của Supabase, chạy nội dung trong file `database_schema.sql` để tạo bảng.
-- Giải nén folder `data`
-- Upload từng file trong folder `data` vào các bảng vừa tạo để có dữ liệu test.
+**Step 3: Key / URL Configuration**
+This project requires connection to Supabase and the gpt-4o-mini API. 
+Please navigate to the 'Load data' cell and the 'Set-up API Key' cell.
+- `SUPABASE_URL`: [Enter your Supabase URL]
+- `OPENAI_API_KEY`: [Enter your API Key]
 
-**Bước 3: Cài đặt Keys / URLs**
-Project này yêu cầu kết nối với Supabase và API gpt-4o-mini. 
-Vui lòng di chuyển đến ô 'Load data' và ô 'Set-up API Key'.
-- `SUPABASE_URL`: [Nhập link Supabase]
-- `OPENAI_API_KEY`: [Nhập API Key của bạn]
-
-**Bước 4: Chạy Pipeline**
-- Chạy lần lượt từng cell từ trên xuống dưới trong file Notebook.
-- Quan sát và đánh giá kết quả
+**Step 4: Run the Pipeline**
+- Run each cell sequentially from top to bottom in the Notebook.
+- Observe and evaluate the results.
 
 ## 4. Dataset
 - Database name: Brazilian E-Commerce Public Dataset by Olist
-- Đường dẫn: kaggle.com/datasets/olistbr/brazilian-ecommerce
+- Link: kaggle.com/datasets/olistbr/brazilian-ecommerce
