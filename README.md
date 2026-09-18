@@ -34,3 +34,9 @@ Please navigate to the 'Load data' cell and the 'Set-up API Key' cell.
 ## 4. Dataset
 - Database name: Brazilian E-Commerce Public Dataset by Olist
 - Link: kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+## 5. How to cite
+If you found our work useful, please cite us.
+
+Huynh-Ngan La, Hoang T. Nguyen, and Hung-Nghiep Tran
+[BAPTSQL: Business-Aware Prompt Design for Text-to-SQL in E-Commerce AnalyticsL](https://github.com/lahuynhngan/BAPTSQL). CONF XXX, 2026. doi:10.1234/abcxyz
