@@ -48,16 +48,9 @@ Please navigate to the 'Load data' cell and the 'Set-up API Key' cell.
 ## 5. How to cite
 If you find this work, code, or evaluation resources useful, please cite our paper:
 
-> Huynh-Ngan La, Hoang T. Nguyen, and Hung-Nghiep Tran.  
-> **"Business-Aware Prompt Design for Text-to-SQL in E-Commerce Analytics."**  
-> Future Data and Security Engineering (FDSE 2026), 2026.
+Huynh-Ngan La, Hoang T. Nguyen, Hung-Nghiep Tran. [Business-Aware Prompt Design for Text-to-SQL in E-Commerce Analytics](Online Link). FDSE 2026. doi: xxx.
 
 ```bibtex
-@inproceedings{la2026businessaware,
-  title={Business-Aware Prompt Design for Text-to-SQL in E-Commerce Analytics},
-  author={La, Huynh-Ngan and Nguyen, Hoang T. and Tran, Hung-Nghiep},
-  booktitle={Future Data and Security Engineering},
-  year={2026}
-}
+BibTeX will be updated upon publication.
 ```
-*The official publication link and DOI will be added when available.*
+*The official publication link, doi and BibTeX will be added when available.*
