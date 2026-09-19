@@ -1,6 +1,16 @@
+# Business-Aware Prompt Design for Text-to-SQL in E-Commerce Analytics
+
+This repository contains the code, experimental configurations, and evaluation resources for our study on **business-aware prompting for Text-to-SQL in e-commerce analytics**.
+
+The proposed approach enriches LLM prompts with three types of business context: **enhanced schema descriptions, KPI definitions, and business rules**, aiming to improve the semantic correctness of generated SQL queries for business analytics.
+
+The implementation uses **GPT-4o-mini**, **PostgreSQL via Supabase**, and the **Brazilian E-Commerce Public Dataset by Olist**.
+
 ## 1. General Overview
-This pipeline builds an automated business data analysis chatbot from natural language-supporting Business Development in analyzing business performance. 
-The source code is written entirely on Google Colab and uses Supabase as the database.
+
+This project implements a business-aware Text-to-SQL pipeline that translates Vietnamese natural-language business questions into executable SQL queries.
+
+The source code is implemented in Google Colab, while Supabase is used to host the PostgreSQL database.
 
 ## 2. Directory Structure
 - `Group1_Notebook.ipynb`: Main source code file (Google Colab Notebook) containing the entire pipeline.
@@ -36,7 +46,7 @@ Please navigate to the 'Load data' cell and the 'Set-up API Key' cell.
 - Link: kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ## 5. How to cite
-If you found our work useful, please cite us.
+If you find this work, code, or evaluation resources useful, please cite our paper:
 
 Huynh-Ngan La, Hoang T. Nguyen, and Hung-Nghiep Tran
 [BAPTSQL: Business-Aware Prompt Design for Text-to-SQL in E-Commerce AnalyticsL](https://github.com/lahuynhngan/BAPTSQL). CONF XXX, 2026. doi:10.1234/abcxyz
